@@ -7,7 +7,7 @@ from docx import Document
 from docx.shared import Inches, Pt
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\daniel.campos\AppData\Local\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '\tesseract.exe'
 
 ''' Extrai textos gerais e textos de imagens de um PDF '''
 def get_texts(args):
