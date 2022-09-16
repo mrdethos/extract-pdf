@@ -83,7 +83,7 @@ def save_texts(string, filename):
     body.font.name = 'Arial'
     filename = filename.replace(".pdf", ".docx")
     print(filename, " salvo com sucesso.")
-    doc.save('results/'+filename)
+    doc.save(filename)
 
 def parse_args():
     parser = argparse.ArgumentParser()
