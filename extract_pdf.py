@@ -13,9 +13,6 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Users\daniel.campos\AppData\Local\T
 def get_texts(args):
     # verifica se foi inserido um arquivo .pdf ou um diretório
     if ".pdf" in args.path:
-        #
-        # try:
-        #
         pdf_file = fitz.open(args.path)
         string = ''
         # percorre todas as páginas do pdf
